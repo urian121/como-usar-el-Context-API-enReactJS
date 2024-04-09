@@ -15,3 +15,11 @@
     https://tinkin.medium.com/qu%C3%A9-es-context-api-d856839130a0
 
 ##### useContext es un hook proporcionado por React que se utiliza para acceder al valor de un contexto en un componente funcional de React. Permite a un componente funcional suscribirse al contexto y leer el valor actual del contexto, sin necesidad de utilizar un componente Consumer.
+
+#### Pasos
+
+    Crear el contexto: Define un contexto utilizando React.createContext().
+
+    Crear el proveedor: Envuelve la parte de la aplicación que necesita acceder al contexto con un Proveedor, proporcionando un valor al contexto.
+
+    Consumir el contexto: Accede al valor del contexto en los componentes hijos utilizando el Consumidor o el hook useContext.
