@@ -29,8 +29,18 @@ export const DataContextProvider = ({ children }) => {
   );
 };
 
+// Crear un hook perzonalizado para para facilitar  el acceso al valor del contexto
+/*
+export function useDataContext() {
+  const contexto = useContext(MyDataContext);
+  //Si no hay contexto
+  if (!contexto) {
+    console.log("No hay contexto");
+  }
+  return contexto;
+}
+*/
+
 DataContextProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };
-
-export default DataContextProvider;
